@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "server": "tsc server.ts && node server.js",
-        "client": "tsc client.ts && node client.js"
+        "client": "tsc client.ts && node client.js",
+        "publisher": "tsc publisher.ts && node publisher.js"
     },
     "author": "",
     "license": "ISC",
