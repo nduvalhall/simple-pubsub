@@ -35,3 +35,6 @@ The message format has been constrained to:
 -   Part 1: header ("publish")
 -   Part 2: topic -> this is always a string
 -   Part 3: message -> this is always JSON
+
+# Limitations
+This server will only work with one worker, if multiple workers are used then only one of the workers will register the incomming connection. The solution to this would be to spin up a docker image of redis and use that as the central connection store. A data structure that is performant will need to be found to make this fast.
