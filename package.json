@@ -5,9 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "server": "tsc server.ts && node server.js",
-        "client": "tsc client.ts && node client.js",
-        "publisher": "tsc publisher.ts && node publisher.js"
+        "server": "tsc && node ./dist/server.js",
+        "client": "tsc && node ./dist/client.js",
+        "start": "tsc && node ./dist/server.js"
     },
     "author": "",
     "license": "ISC",
